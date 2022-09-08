@@ -2,6 +2,7 @@ name: Production Auto-PR
 on:
   push:
     branches: ['dev']
+  workflow_dispatch:
 
 jobs:
   pull-request:
