@@ -18,6 +18,5 @@ jobs:
         destination_branch: "prod"
         pr_title: "Pulling ${{ github.ref }} into main"
         pr_body: "💥 *An automated PR*"
-        pr_reviewer: "Gusb3ll"
         pr_draft: false
         github_token: ${{ secrets.GH_TOKEN }}
