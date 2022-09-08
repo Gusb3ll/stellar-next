@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify-icon/solid': 1.0.0-beta.3
+  '@iconify-icon/solid': 1.0.0
   '@solidjs/router': 0.4.3
   '@types/node': 18.7.16
   '@typescript-eslint/parser': 5.36.2
@@ -21,7 +21,7 @@ dependencies:
   solid-js: 1.5.4
 
 devDependencies:
-  '@iconify-icon/solid': 1.0.0-beta.3_solid-js@1.5.4
+  '@iconify-icon/solid': 1.0.0_solid-js@1.5.4
   '@types/node': 18.7.16
   '@typescript-eslint/parser': 5.36.2_yqf6kl63nyoq5megxukfnom5rm
   eslint: 8.23.0
@@ -401,17 +401,17 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-icon/solid/1.0.0-beta.3_solid-js@1.5.4:
-    resolution: {integrity: sha512-0zP0T6LsPXTkaMqBmFT+M/pvKnkICyrUtzkkiEYW4Tun+zq99Q9f3vWtBZNJqPTbEq4F0V0ZMlZbnxjwGBnXDQ==}
+  /@iconify-icon/solid/1.0.0_solid-js@1.5.4:
+    resolution: {integrity: sha512-k4Hjd5tLrktpc927nNdA3oz8OkVovHYi4c/X74sNAMOlAVLFDarTIwaJ5bgbpGg27cPbmZapAdymFOyeCQ3YtA==}
     peerDependencies:
       solid-js: '>=1'
     dependencies:
-      iconify-icon: 1.0.0-beta.3
+      iconify-icon: 1.0.0
       solid-js: 1.5.4
     dev: true
 
-  /@iconify/types/2.0.0-beta.1:
-    resolution: {integrity: sha512-M8I8ReRIEj4oIddjUjw3CoKv1wfSX2F3CIDjn3RwxQSOz2nG7/s5r5BJxRHwr+t7p0RPkbyiR640/FQPDZjeYg==}
+  /@iconify/types/2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
 
   /@jridgewell/gen-mapping/0.1.1:
@@ -1672,10 +1672,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /iconify-icon/1.0.0-beta.3:
-    resolution: {integrity: sha512-7vAcknliZ3YtbX1nXcNTQMa+m2eNYv6fpiouiuKyolLyuzRxv8mefNCahTcTb1bxPcoKBom1Mj7bN7fGjsKd0g==}
+  /iconify-icon/1.0.0:
+    resolution: {integrity: sha512-UY4PDCKQPpIGgDIx2yxM8wiOdMdLz0mb93dTV0Ox5hThwO8OA2zy8gDmjRReKqkPHK/mY7p/ivDaDGHE8O9xIw==}
     dependencies:
-      '@iconify/types': 2.0.0-beta.1
+      '@iconify/types': 2.0.0
     dev: true
 
   /ignore/5.2.0:
