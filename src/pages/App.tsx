@@ -1,0 +1,20 @@
+import type { Component } from 'solid-js';
+import { Routes, Route } from '@solidjs/router';
+
+import Nav from '../components/nav'
+import Home from './home'
+import Projects from './projects'
+
+const App: Component = () => {
+  return (
+    <>
+      <Nav />
+      <Routes>
+        <Route path="/" component={Home} />
+        <Route path="/projects" component={Projects} />
+      </Routes>
+    </>
+  );
+};
+
+export default App;
