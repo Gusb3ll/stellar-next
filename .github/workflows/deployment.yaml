@@ -16,7 +16,7 @@ jobs:
       uses: repo-sync/pull-request@v2
       with:
         destination_branch: "prod"
-        pr_title: "Pulling ${{ github.ref }} into main"
+        pr_title: "Pulling ${{ github.ref }} into prod"
         pr_body: "💥 *An automated PR*"
         pr_draft: false
         github_token: ${{ secrets.GH_TOKEN }}
