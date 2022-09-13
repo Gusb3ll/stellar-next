@@ -6,7 +6,7 @@ specifiers:
   '@types/node': 18.7.16
   '@typescript-eslint/parser': 5.36.2
   eslint: 8.23.0
-  eslint-plugin-solid: 0.7.1
+  eslint-plugin-solid: 0.7.2
   glitched-writer: 2.0.29
   solid-js: 1.5.4
   typescript: 4.8.3
@@ -25,7 +25,7 @@ devDependencies:
   '@types/node': 18.7.16
   '@typescript-eslint/parser': 5.36.2_itqs5654cmlnjraw6gjzqacppi
   eslint: 8.23.0
-  eslint-plugin-solid: 0.7.1_itqs5654cmlnjraw6gjzqacppi
+  eslint-plugin-solid: 0.7.2_itqs5654cmlnjraw6gjzqacppi
   typescript: 4.8.3
   vite: 3.1.0
   vite-plugin-html: 3.2.0_vite@3.1.0
@@ -1267,8 +1267,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-solid/0.7.1_itqs5654cmlnjraw6gjzqacppi:
-    resolution: {integrity: sha512-DNxpdvbUcxOhSEGtT1szPQyaPCDL9aZDxBaV9ljccSis0Z2vLgl+KF2KTZZqjyQlyw+6pqe3Yu4e1fezjWV72w==}
+  /eslint-plugin-solid/0.7.2_itqs5654cmlnjraw6gjzqacppi:
+    resolution: {integrity: sha512-80jvjh4YypoN5rr/LjFqGA/Xjc3/6UxncGLRGbdYrQR7Y8xQ3ctRkceHb2enlq++vrkk/6rNRCqii0rEtWn80w==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
