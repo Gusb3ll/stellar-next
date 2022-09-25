@@ -10,7 +10,7 @@ specifiers:
   glitched-writer: 2.0.29
   solid-js: 1.5.4
   typescript: 4.8.3
-  vite: 3.1.0
+  vite: 3.1.3
   vite-plugin-html: 3.2.0
   vite-plugin-solid: 2.3.8
   vite-plugin-windicss: 1.8.8
@@ -27,10 +27,10 @@ devDependencies:
   eslint: 8.24.0
   eslint-plugin-solid: 0.7.3_7ilbxdl5iguzcjriqqcg2m5cku
   typescript: 4.8.3
-  vite: 3.1.0
-  vite-plugin-html: 3.2.0_vite@3.1.0
-  vite-plugin-solid: 2.3.8_solid-js@1.5.4+vite@3.1.0
-  vite-plugin-windicss: 1.8.8_vite@3.1.0
+  vite: 3.1.3
+  vite-plugin-html: 3.2.0_vite@3.1.3
+  vite-plugin-solid: 2.3.8_solid-js@1.5.4+vite@3.1.3
+  vite-plugin-windicss: 1.8.8_vite@3.1.3
 
 packages:
 
@@ -2438,7 +2438,7 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /vite-plugin-html/3.2.0_vite@3.1.0:
+  /vite-plugin-html/3.2.0_vite@3.1.3:
     resolution: {integrity: sha512-2VLCeDiHmV/BqqNn5h2V+4280KRgQzCFN47cst3WiNK848klESPQnzuC3okH5XHtgwHH/6s1Ho/YV6yIO0pgoQ==}
     peerDependencies:
       vite: '>=2.0.0'
@@ -2455,10 +2455,10 @@ packages:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 3.1.0
+      vite: 3.1.3
     dev: true
 
-  /vite-plugin-solid/2.3.8_solid-js@1.5.4+vite@3.1.0:
+  /vite-plugin-solid/2.3.8_solid-js@1.5.4+vite@3.1.3:
     resolution: {integrity: sha512-x+cs2aBmD+MjIrGGy+tXK1d8pztNkaMlb3TjsLI8/ZhlNvpr2lB8HrpVNYkz61yLIIyJOTyjPaN9lbOtMAaArw==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -2470,12 +2470,12 @@ packages:
       merge-anything: 5.0.2
       solid-js: 1.5.4
       solid-refresh: 0.4.1_solid-js@1.5.4
-      vite: 3.1.0
+      vite: 3.1.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss/1.8.8_vite@3.1.0:
+  /vite-plugin-windicss/1.8.8_vite@3.1.3:
     resolution: {integrity: sha512-iyu+ZX0NmhNEUaLPv7xtC+EFRBpWMmw0nhd9a9upayfuNG/thwslKiQKmRB7U/dG0k/2oWLvPDvN/B9i7oRgSA==}
     peerDependencies:
       vite: ^2.0.1 || ^3.0.0
@@ -2483,14 +2483,14 @@ packages:
       '@windicss/plugin-utils': 1.8.8
       debug: 4.3.4
       kolorist: 1.5.1
-      vite: 3.1.0
+      vite: 3.1.3
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.1.0:
-    resolution: {integrity: sha512-YBg3dUicDpDWFCGttmvMbVyS9ydjntwEjwXRj2KBFwSB8SxmGcudo1yb8FW5+M/G86aS8x828ujnzUVdsLjs9g==}
+  /vite/3.1.3:
+    resolution: {integrity: sha512-/3XWiktaopByM5bd8dqvHxRt5EEgRikevnnrpND0gRfNkrMrPaGGexhtLCzv15RcCMtV2CLw+BPas8YFeSG0KA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
