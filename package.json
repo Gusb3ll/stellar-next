@@ -12,12 +12,12 @@
     "lint": "eslint \"**/*.{ts,tsx}\" --fix"
   },
   "dependencies": {
+    "solid-js": "1.5.4",
     "@solidjs/router": "0.4.3",
     "glitched-writer": "2.0.29",
-    "solid-js": "1.5.4"
+    "@iconify-icon/solid": "1.0.1"
   },
   "devDependencies": {
-    "@iconify-icon/solid": "1.0.1",
     "@types/node": "18.7.16",
     "@typescript-eslint/parser": "5.36.2",
     "eslint": "8.24.0",
