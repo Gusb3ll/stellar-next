@@ -12,7 +12,7 @@ interface CardProps {
 const ProjectCard: any = (props: CardProps) => { 
   return (
     <>
-      <div class="md:w-104 w-86 h-34 px-6 py-3 bg-white bg-opacity-6 rounded-md border-1 border-gray-500">
+      <div class="lg:w-[30vw] md:w-[40vw] w-86 h-34 px-6 py-3 bg-white bg-opacity-6 rounded-md border-1 border-gray-500">
         <div class="flex flex-col justify-start items-start gap-1">
           <h1 class="text-2xl text-white font-thin line-clamp-1">
             { props.title }
