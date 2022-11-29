@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify-icon/solid': 1.0.1
+  '@iconify-icon/solid': 1.0.2
   '@solidjs/router': 0.5.0
   '@types/node': 18.7.16
   '@typescript-eslint/parser': 5.40.1
@@ -16,7 +16,7 @@ specifiers:
   vite-plugin-windicss: 1.8.8
 
 dependencies:
-  '@iconify-icon/solid': 1.0.1_solid-js@1.6.0
+  '@iconify-icon/solid': 1.0.2_solid-js@1.6.0
   '@solidjs/router': 0.5.0_solid-js@1.6.0
   glitched-writer: 2.0.29
   solid-js: 1.6.0
@@ -406,12 +406,12 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-icon/solid/1.0.1_solid-js@1.6.0:
-    resolution: {integrity: sha512-5UqT2ZSF3nnBUXBSrX5zsP34jIPkjfm+ESqE+pTUVpNVu62JoQxAExABUB7KwioEPHlVTGPWtT59YW5KYFXoRA==}
+  /@iconify-icon/solid/1.0.2_solid-js@1.6.0:
+    resolution: {integrity: sha512-xmsaohZZWUvaxVLYoVFncIz0DZKgGkAPeDjN4Q55wF2l5KXcgGaNlup7h/3ORNknACXKuIzqdd7GRWbur9pwyg==}
     peerDependencies:
       solid-js: '>=1'
     dependencies:
-      iconify-icon: 1.0.1
+      iconify-icon: 1.0.2
       solid-js: 1.6.0
     dev: false
 
@@ -1674,8 +1674,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /iconify-icon/1.0.1:
-    resolution: {integrity: sha512-8qXahj8q0fJ1uMkVJ1DujJw35CWBFxUY9UFCzytfItNjcoj+Dz7yUakuXTzaByIc8seQCnw9CuLVzHdw7yEkBQ==}
+  /iconify-icon/1.0.2:
+    resolution: {integrity: sha512-mehAvz2a4eUAlPo76Wul4zzsPNr3hbOHiauMhPrTVIdLOt0AnccnNloh1EeTO3tYeBv7iaJZfdCPHczvi+CkXQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
