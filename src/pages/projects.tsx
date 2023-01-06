@@ -11,12 +11,12 @@ const Projects: Component = () => {
   })
   return (
     <>
-      <div class="flex h-full w-screen justify-center">
+      <main class="flex h-full w-screen justify-center">
         <div class="flex flex-col h-full w-full gap-12 my-8">
           <h1 class="md:text-5xl text-4xl text-white text-center font-thin tracking-widest uppercase select-none">
             <div id="writer" />
           </h1>
-          <div class="grid h-full w-full xl:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row place-items-center gap-y-8">
+          <div class="grid h-full w-full lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row place-items-center gap-y-8">
             <For each={proj}>
               {(proj) =>
               <ProjectCard
@@ -30,7 +30,7 @@ const Projects: Component = () => {
             </For>
           </div>
         </div>
-      </div>
+      </main>
     </>
   )
 }

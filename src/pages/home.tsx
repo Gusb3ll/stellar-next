@@ -4,15 +4,13 @@ import Webring from '../components/img/webring'
 import Garten from '../components/img/garten';
 
 const Home: Component = () => {
-  const phrases = ['ガスベル', 'Gusbell']
-
   onMount(async () => {
     const writer = new GlitchedWriter(document.getElementById('writer'), { ...presets.nier })
-    writer.queueWrite(phrases, 4000, true)
+    writer.queueWrite(['ガスベル', 'Gusbell'], 4000, true)
   })
   return (
     <>
-      <div class="flex h-[85vh] justify-center items-center">        
+      <main class="flex h-[85vh] justify-center items-center">        
         <h1 class="-mt-12 xl:text-9xl md:text-8xl text-6xl text-white font-thin tracking-wider uppercase select-none">
           <div id="writer" />
         </h1>
@@ -26,7 +24,7 @@ const Home: Component = () => {
             </a>
           </div>
         </div>
-      </div>
+      </main>
     </>
   )
 }

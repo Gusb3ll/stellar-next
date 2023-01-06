@@ -1,5 +1,13 @@
 [
   {
+    "title": "maewkwag-karaoke",
+    "description": "Manekineko karaoke remote control",
+    "githubEnable": true,
+    "websiteEnable": false,
+    "githubUrl": "https://github.com/yue-sh/maewkwag-karaoke",
+    "websiteUrl": ""
+  },
+  {
     "title": "halo",
     "description": "Just a image generator from danboru",
     "githubEnable": true,
