@@ -1,5 +1,6 @@
 import { Component, For, onMount } from 'solid-js'
 import GlitchedWriter, { presets } from 'glitched-writer'
+
 import projects from '../assets/projects.json'
 import ProjectCard from '../components/projectCard'
 
