@@ -1,13 +1,17 @@
-import { Component, For, onMount } from 'solid-js';
-import GlitchedWriter, { presets } from 'glitched-writer';
-import projects from '../assets/projects.json';
-import ProjectCard from '../components/projectCard';
+import { Component, For, onMount } from 'solid-js'
+import GlitchedWriter, { presets } from 'glitched-writer'
+import projects from '../assets/projects.json'
+import ProjectCard from '../components/projectCard'
 
 const Projects: Component = () => {
-  let proj = projects.map((proj) => { return proj });
+  let proj = projects.map(proj => {
+    return proj
+  })
   onMount(() => {
-    const writer = new GlitchedWriter(document.getElementById('writer'), { ...presets.nier })
-    writer.write('Projects');
+    const writer = new GlitchedWriter(document.getElementById('writer'), {
+      ...presets.nier,
+    })
+    writer.write('Projects')
   })
   return (
     <>
@@ -18,15 +22,16 @@ const Projects: Component = () => {
           </h1>
           <div class="grid h-full w-full lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row place-items-center gap-y-8">
             <For each={proj}>
-              {(proj) =>
-              <ProjectCard
-                title={proj.title}
-                description={proj.description}
-                githubEnable={proj.githubEnable}
-                githubUrl={proj.githubUrl}
-                websiteEnable={proj.websiteEnable}
-                websiteUrl={proj.websiteUrl}
-              />}
+              {proj => (
+                <ProjectCard
+                  title={proj.title}
+                  description={proj.description}
+                  githubEnable={proj.githubEnable}
+                  githubUrl={proj.githubUrl}
+                  websiteEnable={proj.websiteEnable}
+                  websiteUrl={proj.websiteUrl}
+                />
+              )}
             </For>
           </div>
         </div>

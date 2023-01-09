@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite';
-import WindiCSS from 'vite-plugin-windicss';
-import solidPlugin from 'vite-plugin-solid';
+import { defineConfig } from 'vite'
+import WindiCSS from 'vite-plugin-windicss'
+import solidPlugin from 'vite-plugin-solid'
 import { createHtmlPlugin } from 'vite-plugin-html'
 
 export default defineConfig({
@@ -12,8 +12,8 @@ export default defineConfig({
       },
     }),
     createHtmlPlugin({
-      minify: true
-    })
+      minify: true,
+    }),
   ],
   server: {
     port: 3000,
@@ -23,4 +23,4 @@ export default defineConfig({
     sourcemap: false,
     target: 'esnext',
   },
-});
+})
