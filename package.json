@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@iconify-icon/solid": "1.0.2",
-    "@solidjs/router": "0.6.0",
+    "@solidjs/router": "0.8.2",
     "glitched-writer": "2.0.29",
     "solid-js": "1.6.9"
   },
