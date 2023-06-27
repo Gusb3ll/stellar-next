@@ -15,7 +15,7 @@
     "@iconify-icon/solid": "1.0.2",
     "@solidjs/router": "0.6.0",
     "glitched-writer": "2.0.29",
-    "solid-js": "1.6.9"
+    "solid-js": "1.7.7"
   },
   "devDependencies": {
     "@types/node": "18.7.16",
